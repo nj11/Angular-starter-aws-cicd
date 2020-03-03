@@ -1,7 +1,13 @@
 # Angular-starter-aws-cicd
-Demonstrates creation of  a CI CD pipeline in AWS for a Angular boot application.The sample Angular Boot application used for this exercise resides at this location
+Demonstrates creation of  a CI CD pipeline in AWS for a Angular boot application.
+
+The sample Angular Boot application used for this exercise resides at this location
 ```https://github.com/nj11/Angular_starter```
-The AWS CI / CD tools used  are AWS Code Build,AWS Code Pipeline and AWS Beanstalk for deployment environment.
+
+The AWS CI / CD tools used  are:
+ * AWS CodeBuild
+ * AWS Code Pipeline 
+ * AWS Beanstalk for deployment environment.
 
 
 # Pre-requisites
