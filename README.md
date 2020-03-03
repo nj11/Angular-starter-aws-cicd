@@ -20,7 +20,7 @@ Amazon developer console account login.If you don't have an account create it he
 
 ![Alt desc](https://github.com/nj11/Angular-starter-aws-cicd/blob/master/screenshots/highleveldiagram.png)
 
-##Step 1 : Beanstalk environment creation.
+#Step 1 : Beanstalk environment creation.
 
 Sign in to to AWS console using your account .Navigate to ```My Account--> AWS Management Console.```
 Go to  ```Services-->Elastic beanstalk```   and then select ```Create a new application.```
@@ -55,5 +55,5 @@ You can check the environment page, along with configuration details like envior
 Click on upload and deploy to upload your war to the new environment.
 ![Alt desc](https://github.com/nj11/Angular_starter/blob/master/screenshots/aws8.png)
 
-##Step 2 : AWS Pipeline creation including creating the build stage
+#Step 2 : AWS Pipeline creation including creating the build stage
 
