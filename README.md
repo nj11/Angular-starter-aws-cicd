@@ -66,6 +66,6 @@ Go to  ```Services-->Elastic beanstalk```   and then select ```Create a new appl
 * Make sure the buildspec.yml exists in the root folder of your github project
 
 
-![Alt desc](https://github.com/nj11/Angular-starter-aws-cicd/blob/master/screenshots/builspec.png)
+![Alt desc](https://github.com/nj11/Angular-starter-aws-cicd/blob/master/screenshots/buildspec.png)
 
 
