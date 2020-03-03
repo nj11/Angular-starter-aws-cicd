@@ -28,7 +28,7 @@ Amazon developer console account login.If you don't have an account create it he
 
 # Step 1 : Beanstalk environment creation.
 
-Sign in to to AWS console using your account .Navigate to ```My Account--> AWS Management Console.```
+* Sign in to to AWS console using your account .Navigate to ```My Account--> AWS Management Console.```
 Go to  ```Services-->Elastic beanstalk```   and then select ```Create a new application.```
        
 ![Alt desc](https://github.com/nj11/Angular_starter/blob/master/screenshots/aws1.png)
@@ -36,30 +36,36 @@ Go to  ```Services-->Elastic beanstalk```   and then select ```Create a new appl
 
 ![Alt desc](https://github.com/nj11/Angular_starter/blob/master/screenshots/aws2.png)
 
-Select the appropriate tier.In this case we are selecting Web server environment.
+* Select the appropriate tier.In this case we are selecting Web server environment.
 
-Enter your application details.
+* Enter your application details.
 
 ![Alt desc](https://github.com/nj11/Angular_starter/blob/master/screenshots/aws3.png)
 
-Enter application platform, in this case it's Java
+* Enter application platform, in this case it's Java
 
 ![Alt desc](https://github.com/nj11/Angular_starter/blob/master/screenshots/aws4.png)
 
-For now choose sample application.We will upload and deploy application jar later.
+* For now choose sample application.We will upload and deploy application jar later.
 ![Alt desc](https://github.com/nj11/Angular_starter/blob/master/screenshots/aws5.png)
 
-Environment creation takes a few minutes.
+* Environment creation takes a few minutes.
 
 ![Alt desc](https://github.com/nj11/Angular_starter/blob/master/screenshots/aws6.png)
 
-Once the environment is ready, click on the enviornment name link as highlighted.
+* Once the environment is ready, click on the enviornment name link as highlighted.
 
 ![Alt desc](https://github.com/nj11/Angular_starter/blob/master/screenshots/aws7.png)
 
-You can check the environment page, along with configuration details like enviornment variables,logs and application URL.
-Click on upload and deploy to upload your war to the new environment.
+* You can check the environment page, along with configuration details like enviornment variables,logs and application URL.
+
 ![Alt desc](https://github.com/nj11/Angular_starter/blob/master/screenshots/aws8.png)
 
 # Step 2 : AWS Pipeline creation including creating the build stage
+
+* Make sure the buildspec.yml exists in the root folder of your github project
+
+
+![Alt desc](https://github.com/nj11/Angular-starter-aws-cicd/blob/master/screenshots/builspec.png)
+
 
