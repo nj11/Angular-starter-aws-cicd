@@ -6,7 +6,7 @@ The sample Angular Boot application used for this exercise resides at this locat
 
 The AWS CI / CD tools used  are:
  * AWS CodeBuild
- * AWS Code Pipeline 
+ * AWS CodePipeline 
  * AWS Beanstalk for deployment environment.
 
 
