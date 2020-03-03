@@ -68,17 +68,27 @@ Go to  ```Services-->Elastic beanstalk```   and then select ```Create a new appl
 
 ![Alt desc](https://github.com/nj11/Angular-starter-aws-cicd/blob/master/screenshots/buildspec.png)
 
+* Select  Developer Tools --> CodePipeline--> Create Pipeline
 
 ![Alt desc](https://github.com/nj11/Angular-starter-aws-cicd/blob/master/screenshots/pipeline1.png)
 
+* Enter pipeline name and service role for this pipeline.
+
 ![Alt desc](https://github.com/nj11/Angular-starter-aws-cicd/blob/master/screenshots/pipeline2.png)
+
+* Enter Artifact store and enryption key.Defaults are used here.
 
 ![Alt desc](https://github.com/nj11/Angular-starter-aws-cicd/blob/master/screenshots/pipeline3.png)
 
+* Enter source code location.GitHub in this case.Can also select AWS CodeCommit if that is the case.
 
 ![Alt desc](https://github.com/nj11/Angular-starter-aws-cicd/blob/master/screenshots/pipeline4.png)
 
+* Create a build stage.
+
 ![Alt desc](https://github.com/nj11/Angular-starter-aws-cicd/blob/master/screenshots/pipeline5.png)
+
+* Enter build configuration details.
 
 ![Alt desc](https://github.com/nj11/Angular-starter-aws-cicd/blob/master/screenshots/pipeline6.png)
 
@@ -88,7 +98,21 @@ Go to  ```Services-->Elastic beanstalk```   and then select ```Create a new appl
 
 ![Alt desc](https://github.com/nj11/Angular-starter-aws-cicd/blob/master/screenshots/pipeline9.png)
 
+* Enter deploy stage details.Deploy provider is AWS Beanstalk.Enter Beanstalk environment and application name to deploy to.
+
 ![Alt desc](https://github.com/nj11/Angular-starter-aws-cicd/blob/master/screenshots/pipeline10.png)
+
+* Review and create pipeline.
 
 ![Alt desc](https://github.com/nj11/Angular-starter-aws-cicd/blob/master/screenshots/pipeline11.png)
 
+* Pipeline runs after it's created.Anytime source code changes,pipeline is triggered automatically.
+
+![Alt desc](https://github.com/nj11/Angular-starter-aws-cicd/blob/master/screenshots/pipeline12.png)
+
+
+* AWS S3 stores the build and deploy artifacts for this pipeline.
+
+![Alt desc](https://github.com/nj11/Angular-starter-aws-cicd/blob/master/screenshots/pipeline13.png)
+
+![Alt desc](https://github.com/nj11/Angular-starter-aws-cicd/blob/master/screenshots/pipeline14.png)
