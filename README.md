@@ -69,3 +69,26 @@ Go to  ```Services-->Elastic beanstalk```   and then select ```Create a new appl
 ![Alt desc](https://github.com/nj11/Angular-starter-aws-cicd/blob/master/screenshots/buildspec.png)
 
 
+![Alt desc](https://github.com/nj11/Angular-starter-aws-cicd/blob/master/screenshots/pipeline1.png)
+
+![Alt desc](https://github.com/nj11/Angular-starter-aws-cicd/blob/master/screenshots/pipeline2.png)
+
+![Alt desc](https://github.com/nj11/Angular-starter-aws-cicd/blob/master/screenshots/pipeline3.png)
+
+
+![Alt desc](https://github.com/nj11/Angular-starter-aws-cicd/blob/master/screenshots/pipeline4.png)
+
+![Alt desc](https://github.com/nj11/Angular-starter-aws-cicd/blob/master/screenshots/pipeline5.png)
+
+![Alt desc](https://github.com/nj11/Angular-starter-aws-cicd/blob/master/screenshots/pipeline6.png)
+
+![Alt desc](https://github.com/nj11/Angular-starter-aws-cicd/blob/master/screenshots/pipeline7.png)
+
+![Alt desc](https://github.com/nj11/Angular-starter-aws-cicd/blob/master/screenshots/pipeline8.png)
+
+![Alt desc](https://github.com/nj11/Angular-starter-aws-cicd/blob/master/screenshots/pipeline9.png)
+
+![Alt desc](https://github.com/nj11/Angular-starter-aws-cicd/blob/master/screenshots/pipeline10.png)
+
+![Alt desc](https://github.com/nj11/Angular-starter-aws-cicd/blob/master/screenshots/pipeline11.png)
+
